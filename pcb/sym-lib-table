@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "albert")(type "KiCad")(uri "/Users/aaron/Documents/albert/pcb/lib/sch/albert.kicad_sym")(options "")(descr ""))
+)
