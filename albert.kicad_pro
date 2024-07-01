@@ -389,7 +389,19 @@
     ],
     [
       "9717bff4-43fd-4c4d-9ccb-a8f356b7f1f3",
-      "MCU"
+      "XMOS"
+    ],
+    [
+      "457b0c9b-9faa-480f-ab4d-80d7566735ae",
+      "Power"
+    ],
+    [
+      "c7bb0f6a-a070-4074-9132-0f05f79fd133",
+      "SYZYGY"
+    ],
+    [
+      "bef03a1a-2df5-41e5-bcca-109c5f92fdce",
+      "Clocks"
     ]
   ],
   "text_variables": {}
