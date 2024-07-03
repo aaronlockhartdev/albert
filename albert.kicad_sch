@@ -2908,6 +2908,15 @@
 		(uuid "2f805da5-2e0e-4e3f-bb32-bb00f4be36b6")
 	)
 	(bus_entry
+		(at 151.13 95.25)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "321e41e4-88bd-48b7-ae2e-8b52a9e02ec3")
+	)
+	(bus_entry
 		(at 74.93 45.72)
 		(size 2.54 2.54)
 		(stroke
@@ -2917,6 +2926,24 @@
 		(uuid "494c815f-b0dd-4298-af3c-b196b8034857")
 	)
 	(bus_entry
+		(at 148.59 76.2)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "502c7257-1274-4191-9f09-116cf5099c3d")
+	)
+	(bus_entry
+		(at 148.59 76.2)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ac22466-117b-4133-9df0-5d79d713c540")
+	)
+	(bus_entry
 		(at 74.93 50.8)
 		(size 2.54 2.54)
 		(stroke
@@ -2924,6 +2951,15 @@
 			(type default)
 		)
 		(uuid "756bd4a6-c61b-4f37-bcb2-f74ea483bab5")
+	)
+	(bus_entry
+		(at 148.59 95.25)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75ccf775-8cc3-4c5a-b750-3e45da2c6534")
 	)
 	(bus_entry
 		(at 80.01 38.1)
@@ -2978,6 +3014,15 @@
 			(type default)
 		)
 		(uuid "a82f3651-7f1f-4c96-bf02-27cd8fb4f4a3")
+	)
+	(bus_entry
+		(at 146.05 76.2)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd9d4575-1f88-4f49-bda7-9fdd1cb155c7")
 	)
 	(bus_entry
 		(at 69.85 97.79)
@@ -3232,6 +3277,16 @@
 			(type default)
 		)
 		(uuid "3c8ad531-09f2-4831-88c1-a4ea553a97fb")
+	)
+	(bus
+		(pts
+			(xy 153.67 97.79) (xy 165.1 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e92f66f-0044-4f72-9534-d4764406dd9d")
 	)
 	(wire
 		(pts
@@ -3583,6 +3638,46 @@
 		)
 		(uuid "9a2d1037-0d81-440e-8a82-bf4b7242bc07")
 	)
+	(bus
+		(pts
+			(xy 151.13 97.79) (xy 153.67 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c7f8672-552d-4783-9f16-8792bebb9f21")
+	)
+	(bus
+		(pts
+			(xy 138.43 76.2) (xy 146.05 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dd07d14-d33e-4fb7-8b48-c604daae87e5")
+	)
+	(bus
+		(pts
+			(xy 146.05 76.2) (xy 148.59 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e6deb86-29e8-42e2-9e68-12ffdb5d58f2")
+	)
+	(wire
+		(pts
+			(xy 148.59 78.74) (xy 148.59 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fcb7df3-d483-4a76-9217-366e47123cf4")
+	)
 	(wire
 		(pts
 			(xy 49.53 38.1) (xy 52.07 38.1)
@@ -3813,6 +3908,16 @@
 		)
 		(uuid "df6fb98e-2525-44ca-9309-c47a60d51e14")
 	)
+	(wire
+		(pts
+			(xy 151.13 78.74) (xy 151.13 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0bad4c5-db92-4d5d-a31a-cd7e86c597d5")
+	)
 	(bus
 		(pts
 			(xy 110.49 88.9) (xy 72.39 88.9)
@@ -3873,6 +3978,16 @@
 		)
 		(uuid "fd0c6768-d984-4330-80eb-8795e639ceb0")
 	)
+	(wire
+		(pts
+			(xy 151.13 63.5) (xy 151.13 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fedb09e3-1309-439a-a01e-124d65bee8b6")
+	)
 	(label "XL.DN0"
 		(at 74.93 45.72 180)
 		(fields_autoplaced yes)
@@ -3916,6 +4031,28 @@
 			(justify right bottom)
 		)
 		(uuid "10f76e91-987c-46f9-98fa-6c3a5432bdf4")
+	)
+	(label "D1"
+		(at 148.59 95.25 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2218c418-a922-48d7-b406-734d9ba5ab75")
+	)
+	(label "TDM.DATA"
+		(at 151.13 78.74 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2c0fd2d1-9ddd-4b06-9d18-edba4b312789")
 	)
 	(label "QSPI.D2"
 		(at 69.85 105.41 180)
@@ -3983,6 +4120,17 @@
 		)
 		(uuid "a8bf7da4-969e-4579-b2aa-5791dc158116")
 	)
+	(label "TDM.FS"
+		(at 148.59 78.74 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aa20b6d7-78d9-40da-9ea2-d95d1c8f1acc")
+	)
 	(label "QSPI.CLK"
 		(at 69.85 97.79 180)
 		(fields_autoplaced yes)
@@ -4004,6 +4152,17 @@
 			(justify right bottom)
 		)
 		(uuid "cec9a197-0dd7-4045-aca6-6107573fd004")
+	)
+	(label "D0"
+		(at 151.13 95.25 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d231ca2b-559b-4dca-8f1b-48aef1604b34")
 	)
 	(label "JTAG.TDI"
 		(at 80.01 38.1 180)
@@ -4037,6 +4196,17 @@
 			(justify right bottom)
 		)
 		(uuid "e927e0ed-f80c-42cb-9be5-5f9b201eadca")
+	)
+	(label "TDM.BCLK"
+		(at 151.13 73.66 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "edd9ec3a-6185-49c4-b219-db54c3a02da2")
 	)
 	(label "QSPI.D1"
 		(at 69.85 102.87 180)
@@ -6007,7 +6177,7 @@
 			(uuid "dd4bc254-282b-405c-b665-7f86cb15cefe")
 		)
 		(pin "TDM{FS,DATA,BCLK}" output
-			(at 138.43 97.79 0)
+			(at 138.43 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6025,8 +6195,8 @@
 		)
 	)
 	(sheet
-		(at 177.8 32.385)
-		(size 30.48 31.115)
+		(at 165.1 34.925)
+		(size 25.4 31.115)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -6037,7 +6207,7 @@
 		)
 		(uuid "bef03a1a-2df5-41e5-bcca-109c5f92fdce")
 		(property "Sheetname" "Clocks"
-			(at 177.8 31.6734 0)
+			(at 165.1 34.2134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6046,7 +6216,7 @@
 			)
 		)
 		(property "Sheetfile" "clocks.kicad_sch"
-			(at 177.8 64.0846 0)
+			(at 165.1 66.6246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
