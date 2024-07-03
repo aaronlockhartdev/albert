@@ -2154,6 +2154,12 @@
 		(uuid "36fa6a9f-e8f1-40ad-b303-c0afbd5bf437")
 	)
 	(junction
+		(at 152.4 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59b99b38-652a-4498-91e3-9d27fac2553e")
+	)
+	(junction
 		(at 69.85 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2170,12 +2176,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98acc677-c184-42bc-8508-f1c4ee842410")
-	)
-	(junction
-		(at 152.4 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "98dbce80-914d-4466-ac50-32627c46d86f")
 	)
 	(junction
 		(at 53.34 100.33)
@@ -2217,6 +2217,15 @@
 		(uuid "4b6b909e-d9a3-4ad6-9c53-660de45c15f1")
 	)
 	(bus_entry
+		(at 237.49 111.76)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "504dc915-e2e0-4dc0-a5bd-5f1d0d5693f0")
+	)
+	(bus_entry
 		(at 222.25 132.08)
 		(size 2.54 2.54)
 		(stroke
@@ -2233,15 +2242,6 @@
 			(type default)
 		)
 		(uuid "568b771b-d782-4c4a-82f1-89ef61c8b63a")
-	)
-	(bus_entry
-		(at 237.49 111.76)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62af5dac-42a3-4246-8d8a-b4d98b72e332")
 	)
 	(bus_entry
 		(at 222.25 127)
@@ -2334,15 +2334,6 @@
 		(uuid "d438c2c6-25c6-4ea7-b964-e9b94c6b1883")
 	)
 	(bus_entry
-		(at 137.16 104.14)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7a9533b-d578-47c0-a46a-b59ffaf5699e")
-	)
-	(bus_entry
 		(at 175.26 101.6)
 		(size 2.54 2.54)
 		(stroke
@@ -2407,6 +2398,16 @@
 			(type default)
 		)
 		(uuid "12e46422-500e-4764-acec-f0217c222fe3")
+	)
+	(bus
+		(pts
+			(xy 237.49 111.76) (xy 237.49 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "137e7d99-56bd-4d19-88c9-a5789f326c5e")
 	)
 	(wire
 		(pts
@@ -2560,16 +2561,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 114.3) (xy 250.19 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "557cded1-1e68-4afc-a936-ece2e4a4f85e")
-	)
-	(wire
-		(pts
 			(xy 162.56 106.68) (xy 165.1 106.68)
 		)
 		(stroke
@@ -2648,16 +2639,6 @@
 		)
 		(uuid "6d2aa50c-2965-4827-a1fc-6d9713373f32")
 	)
-	(bus
-		(pts
-			(xy 237.49 106.68) (xy 237.49 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "751a56f8-7352-4174-88c7-7b9fe66378b7")
-	)
 	(wire
 		(pts
 			(xy 49.53 100.33) (xy 50.8 100.33)
@@ -2677,6 +2658,16 @@
 			(type default)
 		)
 		(uuid "7a20145a-d7a4-4cdd-bee7-31cdbb439358")
+	)
+	(wire
+		(pts
+			(xy 149.86 106.68) (xy 152.4 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c82a14f-5663-49a1-b375-64b57c108595")
 	)
 	(wire
 		(pts
@@ -2788,15 +2779,15 @@
 		)
 		(uuid "9c9cbcc6-3a23-47ef-a5a8-08c4e2094007")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 137.16 88.9) (xy 137.16 104.14)
+			(xy 240.03 114.3) (xy 250.19 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9d918c3d-524f-4ae0-8e57-56777a173059")
+		(uuid "9cb776ee-6bc5-4ace-bd6b-217ea134e6ba")
 	)
 	(wire
 		(pts
@@ -2830,7 +2821,7 @@
 	)
 	(bus
 		(pts
-			(xy 237.49 111.76) (xy 237.49 114.3)
+			(xy 237.49 106.68) (xy 237.49 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2907,16 +2898,6 @@
 			(type default)
 		)
 		(uuid "e345914f-28f1-4ca7-a991-93549ac6a0e0")
-	)
-	(wire
-		(pts
-			(xy 139.7 106.68) (xy 152.4 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb5b18ef-0596-4980-ad7d-9b02e54e8592")
 	)
 	(wire
 		(pts
@@ -3017,17 +2998,6 @@
 			(type default)
 		)
 		(uuid "fdf6dbd0-3c89-4503-862f-633055af2bdd")
-	)
-	(label "USB.VBUS"
-		(at 139.7 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0199c61e-e45b-42c5-8c3b-5189ed7ed6d3")
 	)
 	(label "JTAG.~{RST}"
 		(at 52.07 165.1 0)
@@ -3148,7 +3118,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "86efd931-978e-4d41-8323-fd5145e52a86")
+		(uuid "a49c2b39-52e3-450b-bc42-107379d35e47")
 	)
 	(label "XL.DN1"
 		(at 224.79 127 0)
@@ -3249,8 +3219,30 @@
 		)
 		(uuid "fa264aac-b37e-4140-bcd0-70cfb78eec2a")
 	)
-	(hierarchical_label "TDM{BCLK,FS,DATA}"
-		(shape bidirectional)
+	(global_label "USB_VBUS"
+		(shape passive)
+		(at 149.86 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "45d126aa-a646-42b2-9f82-966b0e2b7eb6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.3099 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "TDM{FS,DATA,BCLK}"
+		(shape output)
 		(at 237.49 106.68 90)
 		(fields_autoplaced yes)
 		(effects
@@ -3297,7 +3289,7 @@
 		)
 		(uuid "f47283a6-39b8-4d54-b806-2d431f6e79bb")
 	)
-	(hierarchical_label "USB{DP,DM,VBUS}"
+	(hierarchical_label "USB{DP,DM}"
 		(shape bidirectional)
 		(at 137.16 78.74 90)
 		(fields_autoplaced yes)
