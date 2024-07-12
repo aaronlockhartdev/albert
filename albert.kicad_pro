@@ -402,6 +402,10 @@
     [
       "bef03a1a-2df5-41e5-bcca-109c5f92fdce",
       "Clocks"
+    ],
+    [
+      "fbe91fe2-f518-46a6-ad32-49bb3f99da61",
+      "pMCU"
     ]
   ],
   "text_variables": {}
